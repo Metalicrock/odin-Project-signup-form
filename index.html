@@ -1,1 +1,51 @@
-!!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <div class="left-background">
+        
+    </div>
+    <div class="right-container">
+    <div class="title">You Know you Love capitalism, so why not sign up for even more? Let's get started today</div>
+    <form action="/" method="post">
+        <ul>
+            <li class="input-group">
+                <label for="F-name">First Name</label>
+                <input type="text" name="F-name" id="F-name" required/>
+            </li>
+            <li class="input-group">
+                <label for="L-name">Last Name</label>
+                <input type="text" name="L-name" id="L-name" required/>
+            </li>
+            <li class="input-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required/>
+            </li>
+            <li class="input-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" required pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
+            </li>
+            <li class="input-group">
+                <label for="password">Password</label>
+                <input type="text" name="password" id="password" required/>
+            </li>
+            <li class="input-group">
+                <label for="password-confirm">Confirm Password</label>
+                <input type="text" name="password-confirm" id="password-confirm" required/>
+            </li>
+        </ul>
+        <button type="submit" class="submit">Create Account!</button>
+        <div>Already have an account? <a href="/login"><span class="login-span">Log in</span></a></div>
+    </form>
+    </div>
+</div>
+
+
+</body>
+</html>
