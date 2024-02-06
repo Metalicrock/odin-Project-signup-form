@@ -90,3 +90,7 @@ a{
 .login-span:hover{
     color: rgb(98, 136, 98);
 }
+
+.error{
+    color: red
+}
